@@ -1,9 +1,9 @@
 /*
   fetch-stats.js — descarga estadísticas reales del explorador de Lichess
-  para cada línea del repertorio y escribe ../data/stats.js
+  para cada línea del repertorio y escribe stats.js, acá al lado.
 
-  Los datos generados NO se muestran hoy en la página: quedan versionados junto
-  al widget de referencia documentado en docs/stats.md, listos para retomar.
+  Los datos generados NO se muestran hoy en la página; quedan versionados para
+  retomarlos. Ver tools/README.md.
 
   Uso:   node tools/fetch-stats.js
   (sin dependencias; requiere Node 18+ y salida a internet hacia explorer.lichess.ovh)
@@ -36,7 +36,7 @@ var CONFIG = {
 
 var ROOT = path.join(__dirname, "..");
 var LINES_JS = path.join(ROOT, "assets", "js", "lines.js");
-var SALIDA = path.join(ROOT, "data", "stats.js");
+var SALIDA = path.join(__dirname, "stats.js");
 
 /* lines.js es un script clásico (declara `var LINES`), no un módulo: se evalúa
    en este scope para leer las líneas sin duplicar los datos. */
@@ -211,9 +211,9 @@ function r3(x) { return Math.round(x * 1000) / 1000; }
            "   Fuente: explorador de Lichess · " + meta.speeds + " · rating " + meta.ratingMin +
            "+ · " + meta.desde + " a " + meta.hasta + " */\n" +
            "var STATS=" + JSON.stringify({ meta: meta, lineas: out }, null, 1) + ";\n";
-  if (process.env.DRY) { console.log("\n(DRY: no se escribió data/stats.js)"); return; }
+  if (process.env.DRY) { console.log("\n(DRY: no se escribió tools/stats.js)"); return; }
   fs.writeFileSync(SALIDA, js, "utf8");
-  console.log("\nEscrito data/stats.js (" + Object.keys(out).length + " líneas).");
+  console.log("\nEscrito tools/stats.js (" + Object.keys(out).length + " líneas).");
 })().catch(function (e) {
   console.error("\nFalló: " + e.message);
   process.exit(1);
