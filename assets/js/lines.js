@@ -1,6 +1,6 @@
   /* Ply: [san, [[from,to],...], nota, {mala:1, hl:[casillas], arr:[[de,a],...]}] */
   var LINES={
-    l0:{flip:0,intro:"Posición inicial. Partida modelo: el negro juega el esquema clásico y el blanco arma el Londres completo. Al final de la línea aparecen marcados los planes.",plies:[
+    l0:{flip:0,intro:"Posición inicial. Partida modelo: las negras juegan el esquema clásico y las blancas arman el Londres completo. Al final de la línea aparecen marcados los planes.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...d5",[["d7","d5"]]],
       ["2.Af4",[["c1","f4"]],"El alfil sale antes de que e3 le cierre la diagonal: es la firma del sistema. Detalle que reaparece en varias líneas: al dejar c1, la dama pasa a defender la torre de a1 por la primera fila."],
@@ -9,28 +9,28 @@
       ["3...c5",[["c7","c5"]]],
       ["4.c3",[["c2","c3"]],"La pirámide c3-d4-e3: d4 queda blindado y la tensión de ...c5 pierde efecto.",{hl:["d4"]}],
       ["4...Cc6",[["b8","c6"]]],
-      ["5.Cd2",[["b1","d2"]],"Prepara el salto Ce5: si el negro cambia ahí, el peón de d4 recupera y el puesto se mantiene."],
+      ["5.Cd2",[["b1","d2"]],"Prepara el salto Ce5: si las negras cambian ahí, el peón de d4 recupera y el puesto se mantiene."],
       ["5...e6",[["e7","e6"]]],
       ["6.Cgf3",[["g1","f3"]]],
       ["6...Ad6",[["f8","d6"]]],
-      ["7.Ag3",[["f4","g3"]],"Se mantiene la tensión. Si el negro cambia con ...Axg3, hxg3 abre la columna h con la torre ya colocada (ficha 1D)."],
+      ["7.Ag3",[["f4","g3"]],"Se mantiene la tensión. Si las negras cambian con ...Axg3, hxg3 abre la columna h con la torre ya colocada (ficha 1D)."],
       ["7...0-0",[["e8","g8"],["h8","f8"]]],
       ["8.Ad3",[["f1","d3"]],"El alfil toma la diagonal b1-h7; la batería se completa después con Dc2."],
       ["8...b6",[["b7","b6"]]],
-      ["9.Ce5!",[["f3","e5"]],"La imagen del Londres: caballo dominante en e5, alfil sobre h7 y los planes en marcha — Dc2 o Df3, y f4 consolidando el puesto. Un matiz sobre e5: tras 9...Cxe5 10.dxe5 el peón ataca d6 y f6, pero el negro dispone de 10...Axg3 11.exf6 Axf2+! y el material queda igualado.",{hl:["e5"],arr:[["d3","h7"],["d1","c2"],["f2","f4"]]}]
+      ["9.Ce5!",[["f3","e5"]],"La imagen del Londres: caballo dominante en e5, alfil sobre h7 y los planes en marcha — Dc2 o Df3, y f4 consolidando el puesto. Un matiz sobre e5: tras 9...Cxe5 10.dxe5 el peón ataca d6 y f6, pero las negras disponen de 10...Axg3 11.exf6 Axf2+! y el material queda igualado.",{hl:["e5"],arr:[["d3","h7"],["d1","c2"],["f2","f4"]]}]
     ]},
-    l1c:{flip:0,intro:"Posición inicial. La presión sobre b2 llega en la jugada 3, antes de que el blanco juegue c3.",plies:[
+    l1c:{flip:0,intro:"Posición inicial. La presión sobre b2 llega en la jugada 3, antes de que las blancas jueguen c3.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...d5",[["d7","d5"]]],
       ["2.Af4",[["c1","f4"]],"El desarrollo habitual, que deja a b2 sin su defensor natural."],
       ["2...c5",[["c7","c5"]]],
       ["3.e3",[["e2","e3"]]],
-      ["3...Db6",[["d8","b6"]],"La idea del negro: la dama ataca b2, que nadie defiende.",{hl:["b2"]}],
+      ["3...Db6",[["d8","b6"]],"La idea de las negras: la dama ataca b2, que nadie defiende.",{hl:["b2"]}],
       ["4.Cc3!",[["b1","c3"]],"El gambito temático: b2 se ofrece a propósito. Es posible porque el alfil ya salió de c1 y la dama defiende a1 por la primera fila.",{hl:["b2"]}],
       ["4...Dxb2!?",[["b6","b2"]],"La captura crítica. No es un error: es la prueba del gambito."],
       ["5.Cb5!",[["c3","b5"]],"La jugada que justifica todo: amenaza Cc7+, tenedor a rey y torre, y deja a la dama negra lejos de su ejército.",{arr:[["b5","c7"]]}],
       ["5...Ca6!",[["b8","a6"]],"La única defensa: cubre c7 y desactiva el tenedor. Cualquier otra jugada pierde por Cc7+.",{hl:["c7"]}],
-      ["6.Tb1",[["a1","b1"]],"La dama debe seguir robando material (6...Dxa2) y el blanco elige: repetir con 7.Ta1 Db2 8.Tb1, o continuar con Cf3, Ad3 y enroque. No es ventaja decisiva; es una posición mucho más fácil de jugar con blancas.",{arr:[["b1","b7"]]}]
+      ["6.Tb1",[["a1","b1"]],"La dama debe seguir robando material (6...Dxa2) y las blancas eligen: repetir con 7.Ta1 Db2 8.Tb1, o continuar con Cf3, Ad3 y enroque. No es ventaja decisiva; es una posición mucho más fácil de jugar con blancas.",{arr:[["b1","b7"]]}]
     ]},
     l1d:{flip:0,intro:"Posición inicial. El mismo ataque a b2, pero en la estructura completa.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -45,9 +45,9 @@
       ["5...Db6",[["d8","b6"]],"Ataque a b2 con el peón ya en c3: el recurso de la ficha 1A no existe, porque Cc3 es imposible.",{hl:["b2"]}],
       ["6.Db3!",[["d1","b3"]],"Se defiende ofreciendo el cambio de damas. Las defensas pasivas — Tb1, Dc1, b3 — dan resultados claramente peores."],
       ["6...c4!",[["c5","c4"]],"La respuesta habitual: gana espacio, expulsa a la dama y fija la estructura.",{hl:["c4"]}],
-      ["7.Dc2!",[["b3","c2"]],"El matiz decisivo: hay que retener damas. Con 7.Dxb6 axb6 el negro consigue la columna a y un final sin debilidades. Plan blanco: Ae2, 0-0 y una de las dos rupturas contra la cadena — e4 en el centro o b3 minando c4.",{arr:[["e3","e4"],["b2","b3"]]}]
+      ["7.Dc2!",[["b3","c2"]],"El matiz decisivo: hay que retener damas. Con 7.Dxb6 axb6 las negras consiguen la columna a y un final sin debilidades. Plan blanco: Ae2, 0-0 y una de las dos rupturas contra la cadena — e4 en el centro o b3 minando c4.",{arr:[["e3","e4"],["b2","b3"]]}]
     ]},
-    l1b:{flip:0,intro:"Posición inicial. El negro juega el mismo sistema con colores invertidos.",plies:[
+    l1b:{flip:0,intro:"Posición inicial. Las negras juegan el mismo sistema con colores invertidos.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...d5",[["d7","d5"]]],
       ["2.Af4",[["c1","f4"]]],
@@ -58,7 +58,7 @@
       ["4...e6",[["e7","e6"]],"Sostiene d5. La alternativa sólida es 4...c6, que transpone a una Eslava con el alfil blanco ya desarrollado en f4."],
       ["5.Db3!",[["d1","b3"]],"El mismo mecanismo de la ficha 3A, ahora del lado blanco: presión simultánea sobre b7 y d5.",{hl:["b7","d5"],arr:[["b3","b7"]]}],
       ["5...Cc6",[["b8","c6"]],"La defensa correcta, y conviene conocerla: 6.Dxb7?? Cb4! atrapa a la dama tras ...Tb8. El peón de b7 se defiende con táctica, no con piezas."],
-      ["6.Cf3",[["g1","f3"]],"Desarrollo y juego posicional: cxd5 abriendo la columna c contra c7, Tc1, o Ab5 clavando el caballo. Ventaja pequeña pero permanente, porque el negro tiene que resolver dos frentes a la vez.",{arr:[["c4","d5"],["f1","b5"]]}]
+      ["6.Cf3",[["g1","f3"]],"Desarrollo y juego posicional: cxd5 abriendo la columna c contra c7, Tc1, o Ab5 clavando el caballo. Ventaja pequeña pero permanente, porque las negras tienen que resolver dos frentes a la vez.",{arr:[["c4","d5"],["f1","b5"]]}]
     ]},
     l1a:{flip:0,intro:"Posición inicial. El plan igualador más común contra el Londres: cambiar el alfil de f4.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -69,28 +69,28 @@
       ["3...e6",[["e7","e6"]]],
       ["4.Cf3",[["g1","f3"]]],
       ["4...Ad6",[["f8","d6"]],"La oferta de cambio de la pieza que define el sistema.",{hl:["f4"]}],
-      ["5.Ag3!",[["f4","g3"]],"La regla: no cambiar en d6. Ese cambio le ordena la estructura al negro y elimina la pieza clave del esquema; en g3 el alfil sigue vivo y, si el negro insiste, será él quien gaste un tiempo y abra una columna."],
+      ["5.Ag3!",[["f4","g3"]],"La regla: no cambiar en d6. Ese cambio le ordena la estructura a las negras y elimina la pieza clave del esquema; en g3 el alfil sigue vivo y, si las negras insisten, será él quien gaste un tiempo y abra una columna."],
       ["5...0-0",[["e8","g8"],["h8","f8"]]],
-      ["6.Ad3",[["f1","d3"]],"Aquí sí Ad3: con el negro comprometido a ...e6 y no a ...g6, la diagonal b1-h7 es un arma real."],
+      ["6.Ad3",[["f1","d3"]],"Aquí sí Ad3: con las negras comprometidas a ...e6 y no a ...g6, la diagonal b1-h7 es un arma real."],
       ["6...c5",[["c7","c5"]]],
       ["7.c3",[["c2","c3"]]],
       ["7...Cc6",[["b8","c6"]]],
       ["8.Cbd2",[["b1","d2"]],"Esquema completo. El rey blanco todavía no enrocó, y es deliberado."],
-      ["8...Axg3",[["d6","g3"]],"El negro se decide a cambiar..."],
-      ["9.hxg3",[["h2","g3"]],"...y el saldo favorece al blanco: la torre de h1 queda en una columna semiabierta apuntando al enroque negro sin haberse movido, y el peón de g3 blinda f4 y h4. Plan: Dc2 (batería con el alfil sobre h7), Ce5 apoyado por el caballo de d2, y g4-g5 con el rey en el centro o enrocado largo.",{hl:["e5"],arr:[["h1","h7"],["f3","e5"]]}]
+      ["8...Axg3",[["d6","g3"]],"Las negras se deciden a cambiar..."],
+      ["9.hxg3",[["h2","g3"]],"...y el saldo favorece a las blancas: la torre de h1 queda en una columna semiabierta apuntando al enroque negro sin haberse movido, y el peón de g3 blinda f4 y h4. Plan: Dc2 (batería con el alfil sobre h7), Ce5 apoyado por el caballo de d2, y g4-g5 con el rey en el centro o enrocado largo.",{hl:["e5"],arr:[["h1","h7"],["f3","e5"]]}]
     ]},
-    l1e:{flip:0,intro:"Posición inicial. El negro persigue al alfil de f4.",plies:[
+    l1e:{flip:0,intro:"Posición inicial. Las negras persiguen al alfil de f4.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...Cf6",[["g8","f6"]]],
       ["2.Af4",[["c1","f4"]]],
       ["2...g6",[["g7","g6"]],"Prepara el fianchetto y la persecución."],
       ["3.e3",[["e2","e3"]]],
       ["3...Ch5",[["f6","h5"]],"El caballo ataca la pieza clave del sistema.",{hl:["f4"]}],
-      ["4.Ae5!",[["f4","e5"]],"Se pide una definición. El negro puede evitar el debilitamiento con 4...Ag7 5.Axg7 Cxg7, pero entonces su caballo queda mal colocado en g7."],
+      ["4.Ae5!",[["f4","e5"]],"Se pide una definición. Las negras pueden evitar el debilitamiento con 4...Ag7 5.Axg7 Cxg7, pero entonces su caballo queda mal colocado en g7."],
       ["4...f6",[["f7","f6"]],"La respuesta más frecuente, que debilita e6, g6 y el abrigo del rey.",{hl:["e6","g6"]}],
       ["5.Ag3",[["e5","g3"]]],
       ["5...Cxg3",[["h5","g3"]]],
-      ["6.hxg3",[["h2","g3"]],"El balance, sin exagerar: el blanco cambió su alfil por un caballo y el negro conserva la pareja de alfiles; a cambio, la columna h queda semiabierta hacia el futuro enroque y ...f6 dejó debilidades permanentes. Es igualdad dinámica con un plan claro para las blancas. Plan: Ac4 sobre e6, Cd2-f3, Dd2 y presión por la columna h.",{arr:[["h1","h7"],["f1","c4"]]}]
+      ["6.hxg3",[["h2","g3"]],"El balance, sin exagerar: las blancas cambiaron su alfil por un caballo y las negras conservan la pareja de alfiles; a cambio, la columna h queda semiabierta hacia el futuro enroque y ...f6 dejó debilidades permanentes. Es igualdad dinámica con un plan claro para las blancas. Plan: Ac4 sobre e6, Cd2-f3, Dd2 y presión por la columna h.",{arr:[["h1","h7"],["f1","c4"]]}]
     ]},
     l1f:{flip:0,intro:"Posición inicial. Gambito anti-Londres en la jugada 2.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -104,8 +104,8 @@
       ["5.e3",[["e2","e3"]],"Abre la salida del alfil."],
       ["5...Db4+",[["e7","b4"]],"La idea Englund."],
       ["6.Cc3!",[["b1","c3"]],"El bloqueo correcto, por la misma razón que en la ficha 1A: con el alfil fuera de c1, la torre de a1 está defendida."],
-      ["6...Dxb2?!",[["b4","b2"]],"Si el negro insiste con la captura...",{mala:1}],
-      ["7.Cb5!",[["c3","b5"]],"...llega el mismo castigo, y aquí es más fuerte: el negro no dispone de ...Ca6, porque su caballo ya ocupa c6. Debe jugar ...Tb8 o ...Rd8, y entonces Tb1 gana otro tiempo.",{arr:[["b5","c7"]]}]
+      ["6...Dxb2?!",[["b4","b2"]],"Si las negras insisten con la captura...",{mala:1}],
+      ["7.Cb5!",[["c3","b5"]],"...llega el mismo castigo, y aquí es más fuerte: las negras no disponen de ...Ca6, porque su caballo ya ocupa c6. Debe jugar ...Tb8 o ...Rd8, y entonces Tb1 gana otro tiempo.",{arr:[["b5","c7"]]}]
     ]},
     l1g:{flip:0,intro:"Posición inicial. El Englund se sostiene sobre una única secuencia: conviene verla completa.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -119,7 +119,7 @@
       ["5.Ad2",[["f4","d2"]]],
       ["5...Dxb2",[["b4","b2"]],"El momento crítico: toda la línea apunta a provocar 6.Ac3??, que pierde por 6...Ab4! — la clavada es contra el rey (b4-c3-d2-e1), de modo que el alfil no puede moverse y está atacado dos veces. Sigue 7.Dd2 Axc3 8.Dxc3 Dc1#, mate porque la torre de a1 no llega a c1 con el caballo todavía en b1.",{hl:["b2"]}],
       ["6.Cc3!",[["b1","c3"]],"La jugada a memorizar: siempre el caballo, nunca el alfil."],
-      ["6...Ab4",[["f8","b4"]],"El negro clava igual, pero ahora no alcanza..."],
+      ["6...Ab4",[["f8","b4"]],"Las negras clavan igual, pero ahora no alcanza..."],
       ["7.Tb1",[["a1","b1"]],"...porque la torre expulsa a la dama con tiempo."],
       ["7...Da3",[["b2","a3"]]],
       ["8.Tb3!",[["b1","b3"]],"La dama queda corta de casillas: escapa por a5, pero tras el cambio en c3 el material queda igualado con pareja de alfiles, desarrollo muy superior y rey negro sin abrigo."]
@@ -141,7 +141,7 @@
       ["7...e5",[["e7","e5"]],"El golpe temático, con tiempo sobre f4, pero el esquema ya está preparado.",{hl:["f4"]}],
       ["8.dxe5",[["d4","e5"]],"Se captura con tranquilidad."],
       ["8...dxe5",[["d6","e5"]]],
-      ["9.Ah2",[["f4","h2"]],"El fruto de h3: el alfil vive en h2 mirando e5 de forma permanente. Si el negro gana espacio con ...e4, el caballo va a d4 y el de b1 sale por d2-c4 o b3.",{hl:["e5"]}],
+      ["9.Ah2",[["f4","h2"]],"El fruto de h3: el alfil vive en h2 mirando e5 de forma permanente. Si las negras ganan espacio con ...e4, el caballo va a d4 y el de b1 sale por d2-c4 o b3.",{hl:["e5"]}],
       ["9...De7",[["d8","e7"]]],
       ["10.Cbd2",[["b1","d2"]],"Partida sana y sin debilidades: Cc4 presiona e5, a4-a5 gana espacio, Td1 ocupa la columna. La posición está objetivamente igualada; su valor es que el plan blanco es sencillo y conocido.",{arr:[["d2","c4"],["a2","a4"]]}]
     ]},
@@ -155,8 +155,8 @@
       ["4.c3!",[["c2","c3"]],"El matiz de orden: aquí va el peón, no el caballo. Con el alfil en g7, un caballo en c3 estaría atacado y ...Dxb2 vendría con doble amenaza.",{hl:["b2"]}],
       ["4...Db6",[["d8","b6"]],"La presión conocida sobre b2...",{hl:["b2"]}],
       ["5.Db3!",[["d1","b3"]],"...respondida desde una posición sana: b3 quedó disponible gracias a 4.c3."],
-      ["5...Dxb3",[["b6","b3"]],"El cambio es lo más común. La jugada más incómoda es 5...c4!, expulsando la dama: 6.Dxb6 axb6 y el negro consigue la columna a y espacio, con posición igualada."],
-      ["6.axb3",[["a2","b3"]],"El blanco obtiene la columna a semiabierta y la torre activa sin conceder nada. Sigue Cf3, Ae2, 0-0: partida tranquila y equilibrada.",{arr:[["a1","a7"]]}]
+      ["5...Dxb3",[["b6","b3"]],"El cambio es lo más común. La jugada más incómoda es 5...c4!, expulsando la dama: 6.Dxb6 axb6 y las negras consiguen la columna a y espacio, con posición igualada."],
+      ["6.axb3",[["a2","b3"]],"Las blancas obtienen la columna a semiabierta y la torre activa sin conceder nada. Sigue Cf3, Ae2, 0-0: partida tranquila y equilibrada.",{arr:[["a1","a7"]]}]
     ]},
     l1j:{flip:0,intro:"Posición inicial. El Londres Jobava contra el fianchetto: iniciativa desde la apertura.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -165,32 +165,32 @@
       ["2...g6",[["g7","g6"]],"El fianchetto: el escenario ideal para este esquema. Contra 2...d5, e4 ya no llega y la partida cambia de carácter."],
       ["3.Af4",[["c1","f4"]],"El alfil londinense de siempre, en un sistema de otro carácter."],
       ["3...Ag7",[["f8","g7"]]],
-      ["4.e4!",[["e2","e4"]],"La gran diferencia con el Londres clásico: e4 llega apoyado por el caballo y el blanco ocupa el centro completo.",{hl:["e4"]}],
+      ["4.e4!",[["e2","e4"]],"La gran diferencia con el Londres clásico: e4 llega apoyado por el caballo y las blancas ocupan el centro completo.",{hl:["e4"]}],
       ["4...d6",[["d7","d6"]]],
       ["5.Dd2",[["d1","d2"]],"Rumbo al enroque largo. La prueba real es 5...c5, golpeando d4 de inmediato: se responde 6.d5 cerrando, o 6.dxc5 dxc5 7.Dxd8+ con juego normal."],
       ["5...0-0",[["e8","g8"],["h8","f8"]]],
-      ["6.0-0-0",[["e1","c1"],["a1","d1"]],"Flancos opuestos. Atacan los dos: el negro dispone de ...c6 y ...b5 a la misma velocidad. La ventaja del blanco no es objetiva sino práctica — el plan es único y fácil de recordar."],
+      ["6.0-0-0",[["e1","c1"],["a1","d1"]],"Flancos opuestos. Atacan los dos: las negras disponen de ...c6 y ...b5 a la misma velocidad. La ventaja de las blancas no es objetiva sino práctica — el plan es único y fácil de recordar."],
       ["6...c6",[["c7","c6"]]],
       ["7.Ah6",[["f4","h6"]],"El golpe temático: se cambia al defensor de g7 y la avalancha h4-h5 abre la columna sobre el rey. Posición de doble filo, donde equivocarse es caro para ambos.",{arr:[["h6","g7"],["h2","h4"]]}]
     ]},
-    l1k:{flip:0,intro:"Posición inicial. El empuje ...c5 llega en la jugada 2, antes de que el blanco arme la pirámide.",plies:[
+    l1k:{flip:0,intro:"Posición inicial. El empuje ...c5 llega en la jugada 2, antes de que las blancas armen la pirámide.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...Cf6",[["g8","f6"]]],
       ["2.Af4",[["c1","f4"]]],
       ["2...c5!?",[["c7","c5"]],"La pregunta estructural: ¿avanzar, capturar o sostener?",{hl:["c5","d4"]}],
       ["3.e3!",[["e2","e3"]],"La respuesta práctica: se permanece en aguas conocidas. 3.d5 lleva a una estructura tipo Benoni que en la práctica no ha dado buenos resultados sin el peón en c4."],
       ["3...cxd4",[["c5","d4"]]],
-      ["4.exd4",[["e3","d4"]],"Columna e semiabierta para las torres y centro definido por el blanco.",{arr:[["e1","e8"]]}],
+      ["4.exd4",[["e3","d4"]],"Columna e semiabierta para las torres y centro definido por las blancas.",{arr:[["e1","e8"]]}],
       ["4...Db6",[["d8","b6"]],"El golpe conocido...",{hl:["b2"]}],
       ["5.Cc3!",[["b1","c3"]],"...y la respuesta conocida. Se cumplen las dos condiciones del mecanismo: no hay alfil negro en g7 atacando c3, y el alfil blanco ya salió de c1, de modo que la dama defiende a1 por la primera fila."],
       ["5...Dxb2",[["b6","b2"]],"Si la dama entra..."],
-      ["6.Cb5!",[["c3","b5"]],"...por tercera vez en la guía. La defensa es 6...Ca6, cubriendo c7; entonces 7.Tb1 Dxa2 deja al blanco con desarrollo, iniciativa y la opción de repetir. Si el negro no captura en b2, sigue Cf3, Ae2, 0-0 con centro sano.",{arr:[["b5","c7"]]}]
+      ["6.Cb5!",[["c3","b5"]],"...por tercera vez en la guía. La defensa es 6...Ca6, cubriendo c7; entonces 7.Tb1 Dxa2 deja a las blancas con desarrollo, iniciativa y la opción de repetir. Si las negras no capturan en b2, sigue Cf3, Ae2, 0-0 con centro sano.",{arr:[["b5","c7"]]}]
     ]},
     l1l:{flip:0,intro:"Posición inicial. La Benoni original: la pregunta estructural llega en la jugada uno.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...c5!?",[["c7","c5"]],"La Vieja Benoni. Atención al reflejo automático: 2.Af4?! permite ...cxd4 y ya no hay buena recuperación — 3.Dxd4 Cc6 hace perder tiempo a la dama, y 3.Axb8 Txb8 4.Dxd4 recupera el peón pero entrega el alfil por un caballo.",{hl:["c5","d4"]}],
       ["2.d5!",[["d4","d5"]],"El avance con confianza: el peón de c5 queda sin objetivo y el espacio es blanco sin concesiones."],
-      ["2...e5",[["e7","e5"]],"La variante Checa: el negro arma la cadena c5-d6-e5 y juega a la maniobra en posición cerrada."],
+      ["2...e5",[["e7","e5"]],"La variante Checa: las negras arman la cadena c5-d6-e5 y juegan a la maniobra en posición cerrada."],
       ["3.e4",[["e2","e4"]],"Las cadenas quedan fijadas: d5/e4 contra c5/d6/e5. Partida de planes, no de táctica."],
       ["3...d6",[["d7","d6"]]],
       ["4.Cc3",[["b1","c3"]]],
@@ -200,23 +200,23 @@
       ["6.Cge2",[["g1","e2"]],"El caballo va por e2 para no estorbar a la futura ruptura f4."],
       ["6...0-0",[["e8","g8"],["h8","f8"]]],
       ["7.0-0",[["e1","g1"],["h1","f1"]]],
-      ["7...Ce8",[["f6","e8"]],"El negro reagrupa buscando ...g6 y ...f5, su única fuente de contrajuego."],
-      ["8.f4!",[["f2","f4"]],"La ruptura temática, jugada en el momento correcto: el negro ya se comprometió con ...Ce8. Si todavía no reagrupó, conviene preparar con Ae3, h3 y Tf2, porque tras ...exf4 el caballo negro consigue la casilla e5.",{arr:[["f4","e5"]]}]
+      ["7...Ce8",[["f6","e8"]],"Las negras reagrupan buscando ...g6 y ...f5, su única fuente de contrajuego."],
+      ["8.f4!",[["f2","f4"]],"La ruptura temática, jugada en el momento correcto: las negras ya se comprometieron con ...Ce8. Si todavía no reagrupó, conviene preparar con Ae3, h3 y Tf2, porque tras ...exf4 el caballo negro consigue la casilla e5.",{arr:[["f4","e5"]]}]
     ]},
     l1m:{flip:0,intro:"Posición inicial. La Holandesa (1...f5) evita ...d5 y disputa e4. El Londres puro no la incomoda; el Ataque Hopton, sí.",plies:[
       ["1.d4",[["d2","d4"]]],
-      ["1...f5",[["f7","f5"]],"La Holandesa: el negro renuncia a ...d5 para pelear por e4 y atacar en el flanco rey.",{hl:["e4"]}],
-      ["2.Ag5!",[["c1","g5"]],"El Ataque Hopton. Contra ...f5, el alfil londinense de f4 rinde poco; en g5 clava el desarrollo natural del negro y plantea una pregunta incómoda desde la jugada 2.",{arr:[["g5","f6"]]}],
-      ["2...Cf6",[["g8","f6"]],"El desarrollo natural... justo el que el alfil estaba esperando. (Contra 2...h6 3.Ah4 g5 el negro afloja todo su flanco rey; contra 2...g6, 3.Cc3 prepara e4 o h4.)"],
+      ["1...f5",[["f7","f5"]],"La Holandesa: las negras renuncian a ...d5 para pelear por e4 y atacar en el flanco rey.",{hl:["e4"]}],
+      ["2.Ag5!",[["c1","g5"]],"El Ataque Hopton. Contra ...f5, el alfil londinense de f4 rinde poco; en g5 clava el desarrollo natural de las negras y plantea una pregunta incómoda desde la jugada 2.",{arr:[["g5","f6"]]}],
+      ["2...Cf6",[["g8","f6"]],"El desarrollo natural... justo el que el alfil estaba esperando. (Contra 2...h6 3.Ah4 g5 las negras aflojan todo su flanco rey; contra 2...g6, 3.Cc3 prepara e4 o h4.)"],
       ["3.Axf6",[["g5","f6"]],"Se cambia a propósito.",{hl:["f6"]}],
-      ["3...exf6",[["e7","f6"]],"El negro queda con peones f doblados y sin el caballo defensor. Las casillas claras — e6, g6, la diagonal a2-g8 — pasan a ser debilidades permanentes.",{hl:["e6","g6"]}],
+      ["3...exf6",[["e7","f6"]],"Las negras quedan con peones f doblados y sin el caballo defensor. Las casillas claras — e6, g6, la diagonal a2-g8 — pasan a ser debilidades permanentes.",{hl:["e6","g6"]}],
       ["4.e3",[["e2","e3"]]],
       ["4...d5",[["d7","d5"]]],
       ["5.Ad3",[["f1","d3"]],"El alfil toma la diagonal debilitada: con el peón fijo en f5, h7 y las casillas claras son objetivos de largo plazo.",{arr:[["d3","h7"]]}],
       ["5...Ad6",[["f8","d6"]]],
       ["6.Ce2",[["g1","e2"]],"Rumbo a f4, la mejor casilla del tablero: presiona f5 y d5 a la vez."],
       ["6...0-0",[["e8","g8"],["h8","f8"]]],
-      ["7.0-0",[["e1","g1"],["h1","f1"]],"Estructura sana contra peones doblados. Plan: Cf4 sobre f5/d5, la ruptura c4 para abrir el centro, y los peones f del negro como objetivo fijo. Partida cómoda y de plan claro.",{arr:[["e2","f4"],["c2","c4"]]}]
+      ["7.0-0",[["e1","g1"],["h1","f1"]],"Estructura sana contra peones doblados. Plan: Cf4 sobre f5/d5, la ruptura c4 para abrir el centro, y los peones f de las negras como objetivo fijo. Partida cómoda y de plan claro.",{arr:[["e2","f4"],["c2","c4"]]}]
     ]},
     l2a:{flip:1,intro:"Posición inicial, vista desde las negras. El Avance en su forma principal (3.e5 sin g4).",plies:[
       ["1.e4",[["e2","e4"]]],
@@ -225,12 +225,12 @@
       ["2...d5",[["d7","d5"]]],
       ["3.e5",[["e4","e5"]],"El Avance: cadena d4-e5 como en la Francesa. La clave de la Caro llega enseguida.",{hl:["e5"]}],
       ["3...Af5",[["c8","f5"]],"El alfil sale antes de encerrarlo con ...e6: la gran ventaja sobre la Francesa.",{hl:["f5"]}],
-      ["4.Cf3",[["g1","f3"]],"El Sistema Short, el más sólido y habitual. (Contra 4.h4 la respuesta es 4...h6 conservando el alfil; contra 4.Ad3 se cambia 4...Axd3 y el negro juega la estructura sin alfil malo.)"],
+      ["4.Cf3",[["g1","f3"]],"El Sistema Short, el más sólido y habitual. (Contra 4.h4 la respuesta es 4...h6 conservando el alfil; contra 4.Ad3 se cambia 4...Axd3 y las negras juegan la estructura sin alfil malo.)"],
       ["4...e6",[["e7","e6"]]],
       ["5.Ae2",[["f1","e2"]]],
       ["5...Cd7",[["b8","d7"]],"Rumbo a ...Ce7 y ...c5: el plan es siempre golpear la base d4."],
       ["6.0-0",[["e1","g1"],["h1","f1"]]],
-      ["6...c5!",[["c6","c5"]],"La ruptura temática contra la base de la cadena. Con el alfil ya afuera y sin debilidades, el negro iguala cómodo. Plan: ...Cc6, ...Ce7 y presión permanente sobre d4.",{hl:["d4"],arr:[["c5","d4"]]}]
+      ["6...c5!",[["c6","c5"]],"La ruptura temática contra la base de la cadena. Con el alfil ya afuera y sin debilidades, las negras igualan cómodas. Plan: ...Cc6, ...Ce7 y presión permanente sobre d4.",{hl:["d4"],arr:[["c5","d4"]]}]
     ]},
     l2b:{flip:1,intro:"Posición inicial, vista desde las negras. El Avance con g4.",plies:[
       ["1.e4",[["e2","e4"]]],
@@ -243,7 +243,7 @@
       ["4...Ad7!",[["f5","d7"]],"Retirada flexible: el alfil conserva su futuro, y cada peón blanco avanzado es una casilla que ya no defiende."],
       ["5.Cc3",[["b1","c3"]]],
       ["5...e6",[["e7","e6"]],"Estructura firme."],
-      ["6.h4",[["h2","h4"]],"El blanco sigue avanzando..."],
+      ["6.h4",[["h2","h4"]],"Las blancas siguen avanzando..."],
       ["6...h5!",[["h7","h5"]],"El recurso clave: g4 queda fijado como debilidad permanente.",{hl:["g4"]}],
       ["7.g5",[["g4","g5"]]],
       ["7...c5!",[["c6","c5"]],"Y la base de la cadena, como siempre. Plan: ...Cc6, presión sobre d4, y un flanco rey blanco comprometido de cara al final.",{hl:["d4"],arr:[["c5","d4"]]}]
@@ -253,7 +253,7 @@
       ["1...c6",[["c7","c6"]]],
       ["2.d4",[["d2","d4"]]],
       ["2...d5",[["d7","d5"]]],
-      ["3.Cc3",[["b1","c3"]],"La Clásica (3.Cc3 o 3.Cd2 transponen). El negro cede el centro para desarrollarse con comodidad."],
+      ["3.Cc3",[["b1","c3"]],"La Clásica (3.Cc3 o 3.Cd2 transponen). Las negras ceden el centro para desarrollarse con comodidad."],
       ["3...dxe4",[["d5","e4"]]],
       ["4.Cxe4",[["c3","e4"]]],
       ["4...Cd7!",[["b8","d7"]],"La Variante Karpov: sólida y de poca teoría. Prepara ...Cgf6 sin abrir la columna, como sí ocurre tras 4...Af5 o 4...Cf6."],
@@ -262,7 +262,7 @@
       ["6.Cxf6+",[["e4","f6"]]],
       ["6...Cxf6",[["d7","f6"]],"Recaptura sana. También sirve ...exf6, dando solidez y la columna e semiabierta."],
       ["7.Ad3",[["f1","d3"]]],
-      ["7...Ag4!",[["c8","g4"]],"El alfil sale activo y, si el blanco tiene un caballo en f3, lo clava. Sigue ...e6, ...Ad6, ...0-0: estructura sin debilidades y desarrollo natural. Igualdad cómoda.",{arr:[["g4","f3"]]}]
+      ["7...Ag4!",[["c8","g4"]],"El alfil sale activo y, si las blancas tienen un caballo en f3, lo clava. Sigue ...e6, ...Ad6, ...0-0: estructura sin debilidades y desarrollo natural. Igualdad cómoda.",{arr:[["g4","f3"]]}]
     ]},
     l2d:{flip:1,intro:"Posición inicial, vista desde las negras. El sacrificio de moda contra la Caro.",plies:[
       ["1.e4",[["e2","e4"]]],
@@ -284,12 +284,12 @@
       ["9.De2",[["d1","e2"]]],
       ["9...Rg8!",[["f7","g8"]],"Paso 3: el enroque artificial. Sigue ...Tf8 en cuanto sea posible. Con el rey a salvo, la pieza de ventaja decide."]
     ]},
-    l2e:{flip:1,intro:"Posición inicial, vista desde las negras. El Cambio: 3.exd5. Fama de inofensivo, con razón si el negro desarrolla bien.",plies:[
+    l2e:{flip:1,intro:"Posición inicial, vista desde las negras. El Cambio: 3.exd5. Fama de inofensivo, con razón si las negras desarrollan bien.",plies:[
       ["1.e4",[["e2","e4"]]],
       ["1...c6",[["c7","c6"]]],
       ["2.d4",[["d2","d4"]]],
       ["2...d5",[["d7","d5"]]],
-      ["3.exd5",[["e4","d5"]],"El Cambio: estructura simétrica. Inofensivo salvo que el negro juegue pasivo."],
+      ["3.exd5",[["e4","d5"]],"El Cambio: estructura simétrica. Inofensivo salvo que las negras jueguen pasivas."],
       ["3...cxd5",[["c6","d5"]]],
       ["4.Ad3",[["f1","d3"]],"El alfil apunta a h7 y prepara c3."],
       ["4...Cc6",[["b8","c6"]],"Presiona d4 desde el arranque."],
@@ -305,16 +305,16 @@
       ["2...d5",[["d7","d5"]]],
       ["3.exd5",[["e4","d5"]]],
       ["3...cxd5",[["c6","d5"]]],
-      ["4.c4",[["c2","c4"]],"El Panov: el blanco acepta un peón dama aislado a cambio de piezas activas. La partida más estratégica de la sección.",{hl:["d5"]}],
+      ["4.c4",[["c2","c4"]],"El Panov: las blancas aceptan un peón dama aislado a cambio de piezas activas. La partida más estratégica de la sección.",{hl:["d5"]}],
       ["4...Cf6",[["g8","f6"]]],
       ["5.Cc3",[["b1","c3"]]],
       ["5...e6!",[["e7","e6"]],"La preparación sólida: apoya d5 y prepara ...Ae7 y ...0-0, evitando las líneas más agudas de ...Cc6 y ...Ag5."],
       ["6.Cf3",[["g1","f3"]]],
       ["6...Ae7",[["f8","e7"]]],
-      ["7.cxd5",[["c4","d5"]],"Si el blanco define la estructura..."],
-      ["7...Cxd5",[["f6","d5"]],"...el negro se instala en d5 y el peón blanco de d4 queda aislado, como objetivo permanente. Plan: ...0-0, ...Cc6, ...b6 y ...Ab7, cambiando piezas hacia un final favorable.",{hl:["d4"]}]
+      ["7.cxd5",[["c4","d5"]],"Si las blancas definen la estructura..."],
+      ["7...Cxd5",[["f6","d5"]],"...las negras se instalan en d5 y el peón blanco de d4 queda aislado, como objetivo permanente. Plan: ...0-0, ...Cc6, ...b6 y ...Ab7, cambiando piezas hacia un final favorable.",{hl:["d4"]}]
     ]},
-    l2g:{flip:1,intro:"Posición inicial, vista desde las negras. El blanco prepara la Fantasía.",plies:[
+    l2g:{flip:1,intro:"Posición inicial, vista desde las negras. Las blancas preparan la Fantasía.",plies:[
       ["1.e4",[["e2","e4"]]],
       ["1...c6",[["c7","c6"]]],
       ["2.d4",[["d2","d4"]]],
@@ -335,25 +335,25 @@
       ["3...dxe4",[["d5","e4"]],"Peón central capturado."],
       ["4.Dh5",[["d1","h5"]],"La batería doble contra f7: ante una jugada distraída, Dxf7+ queda sin recaptura porque b3 defiende a la dama.",{hl:["f7"],arr:[["h5","f7"],["b3","f7"]]}],
       ["4...e6!",[["e7","e6"]],"Una sola jugada desactiva el ataque: la diagonal de b3 queda cortada y f7 vuelve a estar defendido."],
-      ["5.Ce2",[["g1","e2"]],"El blanco intenta reorganizarse..."],
-      ["5...Cf6",[["g8","f6"]],"...mientras el negro desarrolla atacando a la dama."],
+      ["5.Ce2",[["g1","e2"]],"Las blancas intentan reorganizarse..."],
+      ["5...Cf6",[["g8","f6"]],"...mientras las negras desarrollan atacando a la dama."],
       ["6.Dh4",[["h5","h4"]]],
-      ["6...Ae7",[["f8","e7"]],"Otra pieza desarrollada, otro golpe a la dama. Peón sano de más y dama rival desubicada: el negro consolida con ...0-0."]
+      ["6...Ae7",[["f8","e7"]],"Otra pieza desarrollada, otro golpe a la dama. Peón sano de más y dama rival desubicada: las negras consolidan con ...0-0."]
     ]},
-    l2i:{flip:1,intro:"Posición inicial, vista desde las negras. El Ataque Indio de Rey: el blanco arma su esquema de fianchetto sin disputar el centro.",plies:[
+    l2i:{flip:1,intro:"Posición inicial, vista desde las negras. El Ataque Indio de Rey: las blancas arman su esquema de fianchetto sin disputar el centro.",plies:[
       ["1.e4",[["e2","e4"]]],
       ["1...c6",[["c7","c6"]]],
-      ["2.d3",[["d2","d3"]],"La declaración del Indio de Rey: el blanco no pelea por el centro; arma d3, g3, Ag2 y enroque, y empuja e5 más adelante. Se llega a lo mismo por 2.Cf3 d5 3.Cbd2."],
+      ["2.d3",[["d2","d3"]],"La declaración del Indio de Rey: las blancas no pelean por el centro; arma d3, g3, Ag2 y enroque, y empuja e5 más adelante. Se llega a lo mismo por 2.Cf3 d5 3.Cbd2."],
       ["2...d5",[["d7","d5"]]],
       ["3.Cd2",[["b1","d2"]]],
       ["3...e5!",[["e7","e5"]],"La refutación posicional: con c6 y d5 ya jugados, ...e5 ocupa el centro completo que el modesto d3 no disputa.",{hl:["e5"]}],
       ["4.Cgf3",[["g1","f3"]]],
-      ["4...Ad6",[["f8","d6"]],"Sostiene e5 y desarrolla: el negro va un paso adelante en el centro."],
+      ["4...Ad6",[["f8","d6"]],"Sostiene e5 y desarrolla: las negras van un paso adelante en el centro."],
       ["5.g3",[["g2","g3"]]],
       ["5...Cf6",[["g8","f6"]]],
       ["6.Ag2",[["f1","g2"]]],
       ["6...0-0",[["e8","g8"],["h8","f8"]]],
-      ["7.0-0",[["e1","g1"],["h1","f1"]],"Un Indio de Rey con los colores invertidos, pero con el negro dueño del centro y de más espacio. Plan: ...Te8, ...a5 ganando terreno en el flanco dama, y contra la ruptura blanca (exd5 o c3-d4) el negro responde con comodidad. Contra el Indio de Rey, la Caro consigue una de sus mejores versiones.",{hl:["e5","d5"],arr:[["a7","a5"]]}]
+      ["7.0-0",[["e1","g1"],["h1","f1"]],"Un Indio de Rey con los colores invertidos, pero con las negras dueñas del centro y de más espacio. Plan: ...Te8, ...a5 ganando terreno en el flanco dama, y contra la ruptura blanca (exd5 o c3-d4) las negras responden con comodidad. Contra el Indio de Rey, la Caro consigue una de sus mejores versiones.",{hl:["e5","d5"],arr:[["a7","a5"]]}]
     ]},
     l30:{flip:1,intro:"Posición inicial, vista desde las negras. El plan de base de la Eslava: desarrollar el alfil antes de encerrarlo, cuidando el momento de soltarlo.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -363,7 +363,7 @@
       ["3.Cf3",[["g1","f3"]]],
       ["3...Cf6",[["g8","f6"]]],
       ["4.Cc3",[["b1","c3"]]],
-      ["4...Af5",[["c8","f5"]],"El alfil sale ya, antes de ...e6: es el mismo plan sin importar si el blanco jugó Cc3, Cf3 o e3 primero."],
+      ["4...Af5",[["c8","f5"]],"El alfil sale ya, antes de ...e6: es el mismo plan sin importar si las blancas jugaron Cc3, Cf3 o e3 primero."],
       ["5.e3",[["e2","e3"]]],
       ["5...e6",[["e7","e6"]]],
       ["6.Ad3",[["f1","d3"]],"Reta al alfil por la misma diagonal de siempre."],
@@ -372,11 +372,11 @@
       ["7...Cbd7",[["b8","d7"]]],
       ["8.0-0",[["e1","g1"],["h1","f1"]]],
       ["8...Ad6",[["f8","d6"]]],
-      ["9.e4",[["e3","e4"]],"La ruptura típica del blanco, con las piezas ya coordinadas."],
+      ["9.e4",[["e3","e4"]],"La ruptura típica de las blancas, con las piezas ya coordinadas."],
       ["9...dxe4",[["d5","e4"]]],
       ["10.Cxe4",[["c3","e4"]]],
       ["10...Cxe4",[["f6","e4"]]],
-      ["11.Dxe4",[["d3","e4"]],"Estructura simétrica, desarrollo terminado y sin debilidades de ningún lado: la posición sólida y pareja que busca quien elige la Eslava. La clave del orden: el blanco jugó e3 y e4 sin combinar cxd5 con Db3, así que el doble ataque de las fichas 3A y 3C nunca llegó a producirse y el alfil estuvo siempre a salvo."]
+      ["11.Dxe4",[["d3","e4"]],"Estructura simétrica, desarrollo terminado y sin debilidades de ningún lado: la posición sólida y pareja que busca quien elige la Eslava. La clave del orden: las blancas jugaron e3 y e4 sin combinar cxd5 con Db3, así que el doble ataque de las fichas 3A y 3C nunca llegó a producirse y el alfil estuvo siempre a salvo."]
     ]},
     l3a:{flip:1,intro:"Posición inicial, vista desde las negras. La línea que castiga el reflejo más natural del eslavista.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -396,7 +396,7 @@
       ["8.Db3",[["b7","b3"]],"Vuelve de inmediato..."],
       ["8...Tb8",[["a8","b8"]],"...pero pagó con tiempos decisivos: ...Ca5 y ...Cxd4 quedan disponibles y la torre domina la columna. La iniciativa compensa el peón con creces."]
     ]},
-    l3b:{flip:1,intro:"Posición inicial, vista desde las negras. La clavada que aparece antes de que el blanco se comprometa con e3 o Cf3.",plies:[
+    l3b:{flip:1,intro:"Posición inicial, vista desde las negras. La clavada que aparece antes de que las blancas se comprometan con e3 o Cf3.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...d5",[["d7","d5"]]],
       ["2.c4",[["c2","c4"]]],
@@ -416,7 +416,7 @@
       ["9.Cf3",[["g1","f3"]]],
       ["9...Cd7",[["b8","d7"]]],
       ["10.0-0",[["e1","g1"],["h1","f1"]]],
-      ["10...Dc7",[["d8","c7"]],"Los peones doblados de f6/f7 no son una debilidad inmediata: el negro tiene el alfil bueno, la columna e y ningún apuro. Plan: ...Tfe8 presionando e3, y más adelante ...e5 o ...c5 para licuar la estructura.",{arr:[["d6","h2"]]}]
+      ["10...Dc7",[["d8","c7"]],"Los peones doblados de f6/f7 no son una debilidad inmediata: las negras tienen el alfil bueno, la columna e y ningún apuro. Plan: ...Tfe8 presionando e3, y más adelante ...e5 o ...c5 para licuar la estructura.",{arr:[["d6","h2"]]}]
     ]},
     l3c:{flip:1,intro:"Posición inicial, vista desde las negras. La simetría del Cambio, con iniciativa blanca.",plies:[
       ["1.d4",[["d2","d4"]]],
@@ -451,7 +451,7 @@
       ["5...b5!",[["b7","b5"]],"La línea crítica: c4 se sostiene con estructura."],
       ["6.e5",[["e4","e5"]],"Expulsión..."],
       ["6...Cd5",[["f6","d5"]],"...hacia la mejor casilla del tablero."],
-      ["7.a4",[["a2","a4"]],"El blanco ataca la base b5."],
+      ["7.a4",[["a2","a4"]],"Las blancas atacan la base b5."],
       ["7...e6!",[["e7","e6"]],"La clave: apuntala d5 y prepara devolver material en el momento oportuno."],
       ["8.axb5",[["a4","b5"]]],
       ["8...Cxc3",[["d5","c3"]],"Primero simplificar..."],
@@ -473,10 +473,10 @@
       ["6...Dxd4",[["d8","d4"]],"Segundo peón. Desde aquí, precisión."],
       ["7.Axb4",[["d2","b4"]]],
       ["7...Dxe4+",[["d4","e4"]],"Tercera captura y jaque..."],
-      ["8.Ae2",[["f1","e2"]],"...y el blanco tiene dos alfiles activos por dos peones."],
-      ["8...Ca6!",[["b8","a6"]],"La jugada clave: ataca al alfil de b4 y coordina. Con juego preciso — ...De4 se recicla, ...Ce7, enroque rápido — el negro retiene el material. Aun así, lo principal sigue siendo evitarlo con 3...Cf6."]
+      ["8.Ae2",[["f1","e2"]],"...y las blancas tienen dos alfiles activos por dos peones."],
+      ["8...Ca6!",[["b8","a6"]],"La jugada clave: ataca al alfil de b4 y coordina. Con juego preciso — ...De4 se recicla, ...Ce7, enroque rápido — las negras retienen el material. Aun así, lo principal sigue siendo evitarlo con 3...Cf6."]
     ]},
-    l3f:{flip:1,intro:"Posición inicial, vista desde las negras. La respuesta tranquila más común: el blanco arma un Londres con los colores invertidos.",plies:[
+    l3f:{flip:1,intro:"Posición inicial, vista desde las negras. La respuesta tranquila más común: las blancas arman un Londres con los colores invertidos.",plies:[
       ["1.d4",[["d2","d4"]]],
       ["1...d5",[["d7","d5"]]],
       ["2.c4",[["c2","c4"]]],
@@ -484,11 +484,11 @@
       ["3.Cf3",[["g1","f3"]]],
       ["3...Cf6",[["g8","f6"]]],
       ["4.Cc3",[["b1","c3"]]],
-      ["4...Af5",[["c8","f5"]],"El alfil sale, como siempre; aquí no hay cxd5+Db3 a la vista y el blanco elige un plan tranquilo."],
+      ["4...Af5",[["c8","f5"]],"El alfil sale, como siempre; aquí no hay cxd5+Db3 a la vista y las blancas eligen un plan tranquilo."],
       ["5.Af4",[["c1","f4"]],"El alfil londinense, con los colores invertidos: partida sólida y simétrica, sin gambitos.",{hl:["f4"]}],
       ["5...e6",[["e7","e6"]]],
       ["6.e3",[["e2","e3"]]],
-      ["6...Ad6",[["f8","d6"]],"Ofrece el cambio del alfil bueno. Si el blanco lo rehúsa con Ag3, el negro enroca y prepara ...Ce4 o la ruptura ...c5."],
+      ["6...Ad6",[["f8","d6"]],"Ofrece el cambio del alfil bueno. Si las blancas lo rehúsan con Ag3, las negras enrocan y preparan ...Ce4 o la ruptura ...c5."],
       ["7.Axd6",[["f4","d6"]]],
       ["7...Dxd6",[["d8","d6"]]],
       ["8.Ad3",[["f1","d3"]]],
@@ -506,9 +506,9 @@
       ["4.Cc3",[["b1","c3"]]],
       ["4...Af5",[["c8","f5"]]],
       ["5.Db3",[["d1","b3"]],"Apunta a b7, que el alfil dejó sin defensa. Como el peón de c6 sigue en pie, d5 no queda bajo doble ataque, y la defensa correcta ya no es ...Cc6 sino el contragolpe ...Db6.",{hl:["b7"]}],
-      ["5...Db6!",[["d8","b6"]],"La mejor respuesta: contraataca la dama en lugar de custodiar b7. Con 6.Dxb6 axb6 el negro queda con la columna a y estructura sana."],
+      ["5...Db6!",[["d8","b6"]],"La mejor respuesta: contraataca la dama en lugar de custodiar b7. Con 6.Dxb6 axb6 las negras quedan con la columna a y estructura sana."],
       ["6.c5",[["c4","c5"]],"El intento incómodo: retiene damas y gana espacio, atacando la dama.",{hl:["c5"]}],
       ["6...Dxb3",[["b6","b3"]]],
-      ["7.axb3",[["a2","b3"]],"El blanco conserva un pequeño clamp de espacio en el flanco dama; no es igualdad automática, pero con ...Cbd7, ...e6, ...Ae7 y ...b6 el negro mina c5 y llega a una posición sólida y sin debilidades. Como en toda la sección, la forma limpia de esquivar este golpe es el orden de jugadas.",{arr:[["b7","b6"]]}]
+      ["7.axb3",[["a2","b3"]],"Las blancas conservan un pequeño clamp de espacio en el flanco dama; no es igualdad automática, pero con ...Cbd7, ...e6, ...Ae7 y ...b6 las negras minan c5 y llegan a una posición sólida y sin debilidades. Como en toda la sección, la forma limpia de esquivar este golpe es el orden de jugadas.",{arr:[["b7","b6"]]}]
     ]}
   };
