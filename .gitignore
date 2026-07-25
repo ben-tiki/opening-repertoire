@@ -1,22 +1,12 @@
-# Credenciales — el token de Lichess se lee de ~/.lichess-token o de la variable
-# de entorno LICHESS_TOKEN, nunca del repositorio.
+
+# De entorno LICHESS_TOKEN, nunca del repositorio.
 .lichess-token
 *.token
 .env
 .env.*
 
-# Dependencias (el proyecto no usa ninguna, por las dudas)
-node_modules/
-
-# Sistema operativo
-.DS_Store
-Thumbs.db
-desktop.ini
-
 # Editores
 .vscode/
-.idea/
-*.swp
 
 # Herramientas locales
 .claude/settings.local.json

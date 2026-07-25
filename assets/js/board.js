@@ -27,7 +27,6 @@
     ultima: "#F5F04A",      /* resaltado de la última jugada */
     critica: "#d1373c",     /* círculo de casilla crítica */
     plan: "#15781B",        /* flechas de plan */
-    coord: "#59636e",
     blanca: "#FFFFFF",
     negra: "#1B1512",
     trazoBlanca: "#2B2B2B",
@@ -196,15 +195,16 @@
              ' opacity="0.72" marker-end="url(#' + marker + ')"/>';
     });
 
-    /* coordenadas */
-    var coord = 'style="font-family:Inter,sans-serif;font-size:11px;font-weight:600;fill:' + COLOR.coord + '"';
+    /* Coordenadas. Van en el margen transparente del SVG, sobre el fondo de la
+       ficha, así que el color lo pone el CSS (.board-svg .coord) para que siga
+       al tema; acá sólo se posicionan. */
     for (var f2 = 0; f2 < 8; f2++) {
-      svg += '<text x="' + (M + f2 * SQ + SQ / 2) + '" y="' + (M + SQ * 8 + 16) +
-             '" text-anchor="middle" ' + coord + ">" + (flip ? FILES[7 - f2] : FILES[f2]) + "</text>";
+      svg += '<text class="coord" x="' + (M + f2 * SQ + SQ / 2) + '" y="' + (M + SQ * 8 + 16) +
+             '" text-anchor="middle">' + (flip ? FILES[7 - f2] : FILES[f2]) + "</text>";
     }
     for (var r2 = 0; r2 < 8; r2++) {
-      svg += '<text x="' + (M - 11) + '" y="' + (M + r2 * SQ + SQ / 2) +
-             '" text-anchor="middle" dominant-baseline="central" ' + coord + ">" +
+      svg += '<text class="coord" x="' + (M - 11) + '" y="' + (M + r2 * SQ + SQ / 2) +
+             '" text-anchor="middle" dominant-baseline="central">' +
              (flip ? r2 + 1 : 8 - r2) + "</text>";
     }
 
