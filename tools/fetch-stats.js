@@ -72,6 +72,7 @@ var CLAVE = {
   l2g: { ply: 4,  quien: "w" },  // 3.f3    (Variante Fantasía)
   l2h: { ply: 2,  quien: "w" },  // 2.Ac4   (Ataque Hillbilly)
   l2i: { ply: 2,  quien: "w" },  // 2.d3    (Ataque Indio de Rey)
+  l2j: { ply: 27, quien: "b" },  // 14...c5 (la ruptura contra el enroque largo)
 
   /* Eslava. En el modelo (l30) y en 3A se mide el propio ...Af5 para poder
      contrastar el mismo alfil en dos órdenes de jugadas distintos. */

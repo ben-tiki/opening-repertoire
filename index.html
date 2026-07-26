@@ -56,7 +56,7 @@
     <p>Cada ficha es autónoma: un tablero que se recorre jugada a jugada, la idea de cada bando, la respuesta recomendada y el plan que sigue. No hace falta leerlas en orden ni saber teoría previa.</p>
     <div class="pills">
       <span class="pill blancas"><span class="pz"><svg class="pz" width="15" height="15" aria-hidden="true"><use href="#pz-rey"/></svg></span> Blancas · Sistema Londres · partida modelo + 13 fichas</span>
-      <span class="pill negras"><span class="pz"><svg class="pz" width="15" height="15" aria-hidden="true"><use href="#pz-rey"/></svg></span> Negras · Caro-Kann · 9 fichas</span>
+      <span class="pill negras"><span class="pz"><svg class="pz" width="15" height="15" aria-hidden="true"><use href="#pz-rey"/></svg></span> Negras · Caro-Kann · 10 fichas</span>
       <span class="pill negras"><span class="pz"><svg class="pz" width="15" height="15" aria-hidden="true"><use href="#pz-rey"/></svg></span> Negras · Eslava · partida modelo + 7 fichas</span>
     </div>
     <p class="hint">▶ Los tableros se navegan con los botones o haciendo clic en cualquier jugada; con el tablero seleccionado también funcionan las flechas <kbd>←</kbd> <kbd>→</kbd>. Las jugadas en rojo marcan errores. Círculo rojo: casilla crítica · flecha verde: plan. El botón <strong>"Seguir en Lichess"</strong> abre la posición actual en un tablero de análisis con motor, para explorar variantes propias. El botón "Índice" salta directo a cualquier ficha.</p>
@@ -352,7 +352,7 @@
         <div class="bloque antidoto"><p class="rot"><span class="g">!</span> Respuesta recomendada</p>
           <p><code>4...Cd7</code>, la Variante Karpov: sólida, flexible y de poca teoría. Prepara <code>...Cgf6</code> sin abrir la columna (como sí ocurre tras <code>4...Af5</code>).</p>
           <p><strong>La celada imprescindible:</strong> contra <code>4...Cd7 5.De2</code>, NO se juega <code>5...Cgf6??</code> por <code>6.Cd6#</code> — mate ahogado, con el rey negro encerrado por sus propias piezas. Con eso en mente, tras <code>5.Cf3 Cgf6 6.Cxf6+ Cxf6</code> las negras completan con <code>...Ag4</code>, <code>...e6</code>, <code>...Ad6</code> y <code>...0-0</code>, con igualdad cómoda.</p>
-          <p>Las blancas también pueden intentar <code>5.Cg5</code>, con presión sobre f7. No hay que apurarse: con desarrollo tranquilo y sólido — sin permitir golpes en e6 o f7 — el caballo termina volviendo sin lograr nada duradero. Si preferís <code>4...Cf6</code>, atención al Alien Gambit de la ficha siguiente.</p></div>
+          <p>Las blancas también pueden intentar <code>5.Cg5</code>, con presión sobre f7. No hay que apurarse: con desarrollo tranquilo y sólido — sin permitir golpes en e6 o f7 — el caballo termina volviendo sin lograr nada duradero. Si preferís <code>4...Cf6</code>, atención al Alien Gambit de la ficha siguiente; y si preferís <code>4...Af5</code>, el ataque con enroque largo está en la ficha 2J.</p></div>
         <div class="bloque plan"><p class="rot"><span class="g">⚑</span> Plan de mediojuego</p>
           <p>Desarrollo simple y sin debilidades: <code>...Ag4</code> o <code>...Af5</code>, <code>...e6</code>, <code>...Ad6</code> y <code>...0-0</code>. Las negras apuntan a la ruptura <code>...c5</code> en el momento justo.</p></div>
       </div>
@@ -449,6 +449,26 @@
           <p>La casilla que <code>d3</code> debilitó es <code>d4</code>: si las blancas cambian en d5 o rompen con <code>c3-d4</code>, las negras recapturan cómodas y conservan el mejor centro.</p></div>
         <div class="bloque plan"><p class="rot"><span class="g">⚑</span> Plan de mediojuego</p>
           <p>Sostener el centro con <code>...Te8</code> y <code>...Cbd7</code>, expandirse con <code>...a5</code> en el flanco dama, y vigilar la ruptura blanca <code>e5</code> — que aquí llega tarde y sin apoyo. Es una partida de espacio, sin sobresaltos tácticos.</p></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="ficha arma" id="v2j">
+    <header><span class="num">2J</span><h3>Enroques opuestos: el plan contra la tormenta</h3><span class="tag arma">Plan de mediojuego</span></header>
+    <div class="grid">
+      <div class="panel-board" data-line="l2j"></div>
+      <div class="panel-text">
+        <div class="bloque concepto"><p class="rot"><span class="g">◆</span> Cuándo aparece</p>
+          <p>Es la estructura donde el enroque largo aparece de verdad — en las otras líneas principales del repertorio (la Clásica con <code>4...Cd7</code>, el Avance, la Fantasía, la Eslava) las blancas enrocan corto. Se llega por <code>4...Af5</code> — la otra gran opción de la jugada 4, distinta de la <code>4...Cd7</code> de la ficha 2C. Las jugadas 5 a 11 son casi obligadas de los dos lados; lo que hay que entender empieza en la 12, y desde ahí <strong>las blancas enrocan largo en el 90% de las partidas</strong>.</p>
+          <p>Dicho al revés: si jugás <code>4...Cd7</code>, esta ficha no te hace falta — esa jugada esquiva el esquema entero. Vale como argumento a favor de la Karpov si no querés estudiar ataques.</p></div>
+        <div class="bloque maligno"><p class="rot"><span class="g">?!</span> La idea del rival</p>
+          <p>Enroques opuestos: los reyes quedan en flancos distintos, cada uno ataca al del otro y —en teoría— gana el que llega primero. Las blancas quieren <code>g4-g5</code>, abrir una columna contra <code>g7</code> y meter torres y dama por ahí. La reacción instintiva de las negras es lanzarse a la carrera con <code>...b5</code> y <code>...a5</code>.</p></div>
+        <div class="bloque antidoto"><p class="rot"><span class="g">!</span> La jugada 12</p>
+          <p><code>12...Ae7!</code>, no la natural <code>12...Ad6</code>. En <code>e7</code> el alfil no choca con el peón de <code>d4</code> y le deja libre a la dama la casilla <code>c7</code>. La diferencia no es de matiz: en la base de Lichess (+1800) <code>...Ae7</code> les da a las negras <strong>49%</strong> y <code>...Ad6</code> apenas <strong>43,5%</strong>, sobre unas diez mil partidas.</p></div>
+        <div class="bloque plan"><p class="rot"><span class="g">⚑</span> El plan, que es lo que más cuesta</p>
+          <p><strong>No hay que correr.</strong> La carrera de peones es justamente lo que no funciona acá: <code>...b5</code> rinde <strong>34%</strong> y <code>...a5</code> alrededor del <strong>44%</strong>. Son ataques contra un rey que todavía tiene toda su estructura, lanzados con las piezas negras sin coordinar.</p>
+          <p>Lo correcto es <strong>enrocar corto y romper en el centro</strong>. Enrocar hacia el ataque parece suicida y no lo es, porque el ataque blanco ya viene frenado: el peón h se comprometió en <code>h5</code> y —sobre todo— <strong>los alfiles de casillas claras se cambiaron en la jugada 9</strong>, de modo que no queda la pieza que hace daño en <code>h7</code>.</p>
+          <p>Entonces llega <code>...c5</code>, que es la jugada de toda la ficha: golpea <code>d4</code>, le quita al ataque su base y abre la columna <code>c</code> apuntando directo al rey blanco. Tras <code>14.Ce4</code>, cambiar con <code>14...Cxe4</code> da <strong>45%</strong>; <code>14...c5</code> da <strong>57,6%</strong>. Doce puntos de diferencia sobre la jugada automática: contra el enroque largo, el contrajuego sale del centro, no del flanco.</p></div>
       </div>
     </div>
   </article>
@@ -649,6 +669,7 @@
   <a href="#v2g"><span class="n">2G</span>Variante Fantasía</a>
   <a href="#v2h"><span class="n">2H</span>Ataque Hillbilly</a>
   <a href="#v2i"><span class="n">2I</span>Ataque Indio de Rey</a>
+  <a href="#v2j"><span class="n">2J</span>Enroques opuestos</a>
   <div class="tsec">Eslava</div>
   <a href="#v30"><span class="n">3·0</span>Partida modelo</a>
   <a href="#v3a"><span class="n">3A</span>Doble ataque Db3</a>
