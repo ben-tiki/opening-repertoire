@@ -378,12 +378,12 @@
       ["10...e6",[["e7","e6"]]],
       ["11.Ad2",[["c1","d2"]],"Despeja c1 y prepara el enroque largo."],
       ["11...Cgf6",[["g8","f6"]]],
-      ["12.0-0-0",[["e1","c1"],["a1","d1"]],"Enroques opuestos: el rey blanco al flanco dama y el plan de avanzar g4-g5 contra el rey negro. Es lo que se juega en el 90% de las partidas desde acá.",{arr:[["g2","g4"]]}],
-      ["12...Ae7!",[["f8","e7"]],"La casilla correcta. En e7 el alfil no estorba y deja libre la maniobra ...Dc7 y ...0-0-0 si hiciera falta. La natural ...Ad6 rinde bastante peor en la práctica: choca con el peón de d4 y deja la dama sin su mejor casilla.",{hl:["e7"]}],
+      ["12.0-0-0",[["e1","c1"],["a1","d1"]],"Enroques opuestos: el rey blanco se va al flanco dama y queda listo el avance g4-g5 contra el rey negro.",{arr:[["g2","g4"]]}],
+      ["12...Ae7!",[["f8","e7"]],"La casilla correcta, y no la natural ...Ad6: desde e7 el alfil deja la dama y el flanco dama libres para el contrajuego que viene.",{hl:["e7"]}],
       ["13.Rb1",[["c1","b1"]],"Jugada de profilaxis: saca al rey de la columna c antes de que se abra."],
-      ["13...0-0",[["e8","g8"],["h8","f8"]],"Contra la intuición, enrocar corto es correcto. El ataque blanco ya está frenado: el peón h se comprometió en h5 y el alfil de casillas claras se cambió, así que no hay ataque rápido contra g7 ni h7.",{hl:["g8"]}],
+      ["13...0-0",[["e8","g8"],["h8","f8"]],"Enrocar hacia el ataque parece temerario y no lo es: con el peón h comprometido en h5 y los alfiles de casillas claras cambiados, no queda pieza para golpear rápido en h7.",{hl:["g8"]}],
       ["14.Ce4",[["g3","e4"]],"El caballo ofrece cambios en el centro."],
-      ["14...c5!",[["c6","c5"]],"El plan que resuelve la ficha: NO cambiar en e4 ni correr con ...b5, sino romper en el centro. ...c5 golpea d4, abre la columna c justo hacia el rey blanco y le quita al ataque su base. Es la diferencia práctica más grande de toda la línea.",{hl:["d4"],arr:[["c5","d4"],["a8","c8"]]}]
+      ["14...c5!",[["c6","c5"]],"Romper en el centro antes que cambiar en e4: ...c5 golpea d4, le quita la base al centro blanco y abre la columna c justo hacia el rey. Es el contrajuego que buscaba toda la maniobra.",{hl:["d4"],arr:[["c5","d4"],["a8","c8"]]}]
     ]},
     l30:{flip:1,intro:"Posición inicial, vista desde las negras. El plan de base de la Eslava: desarrollar el alfil antes de encerrarlo, cuidando el momento de soltarlo.",plies:[
       ["1.d4",[["d2","d4"]]],
