@@ -83,7 +83,8 @@ var CLAVE = {
   l3d: { ply: 8,  quien: "w" },  // 5.e4     (Gambito Geller)
   l3e: { ply: 6,  quien: "w" },  // 4.e4     (Gambito Marshall)
   l3f: { ply: 8,  quien: "w" },  // 5.Af4    (Londres invertido contra ...Af5)
-  l3g: { ply: 8,  quien: "w" }   // 5.Db3    (Db3 directa, sin cxd5)
+  l3g: { ply: 8,  quien: "w" },  // 5.Db3    (Db3 directa, sin cxd5)
+  l3h: { ply: 9,  quien: "b" }   // 5...Cxd5 (la recaptura correcta tras cxd5)
 };
 
 function uciDe(ply) { return ply[1][0][0] + ply[1][0][1]; }

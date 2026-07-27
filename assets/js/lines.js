@@ -540,5 +540,25 @@
       ["6.c5",[["c4","c5"]],"El intento incómodo: retiene damas y gana espacio, atacando la dama.",{hl:["c5"]}],
       ["6...Dxb3",[["b6","b3"]]],
       ["7.axb3",[["a2","b3"]],"Las blancas conservan un pequeño clamp de espacio en el flanco dama; no es igualdad automática, pero con ...Cbd7, ...e6, ...Ae7 y ...b6 las negras minan c5 y llegan a una posición sólida y sin debilidades. Como en toda la sección, la forma limpia de esquivar este golpe es el orden de jugadas.",{arr:[["b7","b6"]]}]
+    ]},
+    l3h:{flip:1,intro:"Posición inicial, vista desde las negras. El cambio en d5 antes del doble ataque: la misma posición de las fichas 3F y 3G, con la respuesta más incómoda.",plies:[
+      ["1.d4",[["d2","d4"]]],
+      ["1...d5",[["d7","d5"]]],
+      ["2.c4",[["c2","c4"]]],
+      ["2...c6",[["c7","c6"]]],
+      ["3.Cf3",[["g1","f3"]]],
+      ["3...Cf6",[["g8","f6"]]],
+      ["4.Cc3",[["b1","c3"]]],
+      ["4...Af5",[["c8","f5"]],"El alfil sale, como en toda la sección. Acá el rival todavía conserva c4, Cc3 y la captura en d5: las tres piezas del mecanismo."],
+      ["5.cxd5",[["c4","d5"]],"El cambio primero, para abrir la diagonal de la dama hacia b7 antes de saltar con Db3.",{hl:["b7"]}],
+      ["5...Cxd5!",[["f6","d5"]],"La recaptura correcta, y no la natural con el peón. Con ...cxd5 la columna c queda abierta, d5 se vuelve un blanco fijo y Db3 golpea b7 y d5 a la vez. Con el caballo, el peón de c6 sigue en pie tapando la columna, y d5 es una pieza que puede moverse.",{hl:["d5"]}],
+      ["6.Db3",[["d1","b3"]],"El doble ataque de siempre: b7 y d5.",{arr:[["b3","b7"]]}],
+      ["6...Db6!",[["d8","b6"]],"La respuesta de la ficha 3G, otra vez: no se defiende b7, se ofrece el cambio de damas. Sin damas no hay ataque doble.",{hl:["b6"]}],
+      ["7.Cxd5",[["c3","d5"]],"Único intento de seguir jugando: cambia en d5 antes de que se cambien las damas."],
+      ["7...Dxb3",[["b6","b3"]]],
+      ["8.Cc7+",[["d5","c7"]],"El tenedor a rey y torre, el mismo motivo que aparece en las fichas 1C, 3C y 3G. Acá es una ilusión.",{hl:["c7"],arr:[["c7","a8"]]}],
+      ["8...Rd7!",[["e8","d7"]],"La jugada que hay que ver de antemano: el rey ataca al caballo y le quita la retirada. Tomar la torre con 9.Cxa8 no sirve — el caballo queda encerrado en el rincón y no vuelve.",{hl:["a8"]}],
+      ["9.axb3",[["a2","b3"]],"Obligada: hay que recuperar la dama."],
+      ["9...Rxc7",[["d7","c7"]],"Se recupera la pieza y queda un final de piezas iguales, con el rey negro algo raro en c7 pero sin debilidades reales. Plan: ...e6, ...Cd7, ...Ad6 y reagrupar; el rey vuelve por c8 cuando haga falta.",{arr:[["e7","e6"],["b8","d7"]]}]
     ]}
   };
